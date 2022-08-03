@@ -1,10 +1,29 @@
-- 👋 Hi, I’m @zhongruiquan
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+#include <stdio.h>
 
-<!---
-zhongruiquan/zhongruiquan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+int main()
+{
+	printf("nihao\n");
+
+	char ch = 'A';
+	printf("%c\n", ch);//%c打印字符型;
+
+	int num = 20;
+	printf("%d\n",num);//%d打印整型，%f打印浮点型，%p以地址的形式，
+
+	float f1 = 3.14f;
+	printf("%f\n",f1);
+
+	printf("%d\n", sizeof(short));
+	printf("%d\n", sizeof(int));
+	printf("%d\n", sizeof(long));
+	printf("%d\n", sizeof(float));
+	printf("%d\n", sizeof(double));
+	printf("%d\n", sizeof(char));
+
+	
+
+
+
+
+	return 0;
+  }
